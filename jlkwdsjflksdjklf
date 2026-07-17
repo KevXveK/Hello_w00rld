@@ -1,0 +1,121 @@
+Currículo adaptado
+
+Kevin Fernandes Silva
+Desenvolvedor Fullstack em transição para Segurança Ofensiva
+São Paulo, Brasil · linkedin.com/in/kevin-fernandes-silva
+
+Resumo
+
+Desenvolvedor Fullstack com experiência prática em C#, .NET, Angular, Golang, Python, Docker e bancos NoSQL (MongoDB, Redis), atuando em ambiente corporativo. Atualmente em transição para Cybersegurança, com foco em Ethical Hacking e Segurança Ofensiva. A vivência como desenvolvedor dá uma leitura mais técnica de como sistemas, APIs e ambientes conteinerizados funcionam por dentro — base direta para entender superfícies de ataque e vulnerabilidades de forma fundamentada, não apenas ferramental.
+
+Stack técnica
+
+Desenvolvimento: C#, .NET, Angular, Golang, Python, Docker, MongoDB, Redis, Linux
+Segurança (em desenvolvimento prático): fundamentos de Linux/CLI, permissões e escalonamento básico de privilégios, criptografia clássica, conceitos iniciais de vulnerabilidades web, OSINT, Google Dork, tipos de malware
+
+Experiência profissional
+
+HS Prevent — São Paulo, Brasil (1 ano e 5 meses)
+
+Desenvolvedor Fullstack | Tempo integral | set/2025 – atual (11 meses)
+Continuidade da atuação como estagiário, assumindo responsabilidade plena sobre manutenção e desenvolvimento de sistemas em C#, .NET, Angular, Golang e Python, incluindo componentes conteinerizados em Docker e integração com bancos NoSQL (MongoDB, Redis).
+
+Estagiário de TI | mar/2025 – set/2025 (7 meses)
+- Manutenção e desenvolvimento de sistemas em C#, .NET, Angular, Golang e Python
+- Manutenção e implementação de conteinerização em Docker
+- Acesso, análise e modificação de dados em bancos não relacionais (MongoDB, Redis)
+- Testes funcionais seguindo metodologia definida
+- Elaboração de documentos de critérios de aceitação para testes e requisitos de implantação, em apoio à equipe de DevOps
+
+Formação acadêmica
+
+Universidade Anhanguera São Paulo
+Análise e Desenvolvimento de Sistemas — fev/2023 – jun/2026 (em andamento)
+
+Segurança da Informação — Formação prática e CTFs
+
+Nota: prática de laboratório/CTF em nível fundamental, não substitui certificação profissional — usado aqui como evidência de interesse ativo e aplicado em segurança ofensiva.
+
+- OverTheWire Bandit (níveis 0–12): fundamentos de Linux/CLI, SSH, permissões de arquivo, inspeção de binários e escalonamento básico de privilégios
+- OverTheWire Natas (níveis 0–6): introdução a vulnerabilidades web — inspeção de código-fonte, bypass básico de autenticação, conceitos iniciais ligados a OWASP Top 10
+- OverTheWire Krypton (níveis 0–5): fundamentos de criptografia clássica (cifras de substituição, XOR, codificação)
+- picoCTF: exposição prática a múltiplas categorias (web, criptografia, forense, binários), reforçando raciocínio investigativo
+- cmd challenge (níveis 0–20): fundamentos de linha de comando e scripting em ambiente Windows/PowerShell
+
+Imersão Hacker (27/abril) — ministrada pelo professor Robson Costa
+Conteúdos práticos: CVE e análise de vulnerabilidades, OSINT, Google Dork, tipos de malware, SEToolkit, Shodan, Wifite, EvilTrust, investigação cibernética
+
+Diferenciais
+
+- Base sólida em desenvolvimento (arquitetura, APIs, containers) aplicada à análise de vulnerabilidades
+- Perfil analítico e investigativo, com prática hands-on em ambientes de laboratório (CTFs)
+- Interesse ativo e contínuo em pesquisa e tecnologia ofensiva, validado por formação técnica em andamento e imersão prática recente
+
+---
+Uma observação de honestidade: não inclui frases como "experiência em pentest" ou "conhecimento avançado em OWASP Top 10" porque isso extrapolaria o que você realmente tem (Natas só até o nível 6 é introdutório). Preferi termos como "fundamentos", "introdução" e "em desenvolvimento" — isso é o que vai resistir a uma entrevista técnica sem te deixar exposto. Se você tiver certificações ou cursos que não mencionou, me diga que ajusto.
+
+
+
+Seção "Segurança da Informação" — versão detalhada para o currículo
+
+(substitui o bloco resumido da versão anterior)
+
+OverTheWire Bandit (níveis 0–12) — Linux, Bash e SSH
+
+Prática progressiva de administração de sistema via terminal, com autenticação remota real via SSH a cada nível.
+
+- Acesso remoto e autenticação: ssh, login remoto, gestão de credenciais entre níveis
+- Manipulação de arquivos: nomes com espaços/caracteres especiais, arquivos ocultos (ls -la), identificação de tipo de arquivo (file, distinção binário/ASCII/texto)
+- Busca e filtragem: find por tamanho/permissão/dono/grupo, grep para busca textual por padrões
+- Processamento de dados: sort, uniq (deduplicação), strings (extração de texto de binários — engenharia reversa básica)
+- Encoding e compressão: Base64, ROT13 (tr), hexadecimal (xxd), compressão/descompressão encadeada (gzip, bzip2, tar)
+
+Aplicação direta às vagas: atende "conhecimento em sistemas operacionais Linux" (Vagas 1, 2, 4, 6) e "noções de programação/scripting" na parte de manipulação via shell.
+
+OverTheWire Krypton (níveis 0–5) — Criptografia clássica
+
+- Diferença entre encoding e encriptação
+- Cifra de César e ROT13 (força bruta e reconhecimento de padrão)
+- Substituição monoalfabética com análise de frequência
+- Cifra de Vigenère (chave repetitiva, criptografia polialfabética)
+- Criptanálise estatística básica (ataques clássicos por frequência de letras)
+
+Aplicação direta às vagas: suporte ao "perfil analítico e investigativo" pedido em todas as vagas júnior; base conceitual para entender por que certos esquemas de auth/hash são fracos (relevante para CVE/CVSS review).
+
+OverTheWire Natas (níveis 0–6) — Segurança Web
+
+- Reconhecimento e enumeração web: view-source, robots.txt, descoberta de diretórios/arquivos ocultos
+- HTTP na prática: inspeção e manipulação de headers (incluindo Referer) usando curl, wget e Burp (uso básico)
+- Sessões e autenticação: análise de cookies, bypass de restrições client-side via DevTools
+- Code review: leitura de código-fonte PHP, identificação de includes e arquivos de configuração expostos (information disclosure)
+
+Aplicação direta às vagas: cobre literalmente "Noções de Pentest Web" e introduz na prática conceitos do OWASP Top 10 (Broken Access Control, Security Misconfiguration, Information Disclosure) exigidos nas Vagas 1, 2, 6. Uso de Burp Suite já é hands-on, ainda que básico — item explicitamente pedido nas Vagas 1, 2 e 6.
+
+picoCTF — General Skills
+
+Prática distribuída de CLI, redes básicas e encoding via dezenas de desafios curtos:
+
+- Linux/shell: ls, cd, pwd, cat, grep, find, pipes, redirecionamento, cron, variáveis de ambiente, permissões
+- Rede: netcat, requisições web, curl/wget, fundamentos de rede
+- Dados: Git básico, hashes (md5, sha1, sha256), Base64, hex, ROT13, strings, compressão (gzip, tar, zip, bzip2), regex
+- Python aplicado a scripts curtos de resolução de desafios
+
+Aplicação direta às vagas: reforça "noções de programação/scripting (Python, Bash)" e introduz manuseio de hashes, relevante para entendimento de CVE/CVSS e integridade de dados.
+
+cmd Challenge (níveis 0–20) — Terminal Linux avançado
+
+- Arquivos: touch, cp, mv, rm, mkdir, rmdir, tree
+- Permissões: chmod, chown
+- Busca: grep, locate, find
+- Texto: head, tail, cut, awk, sed, sort, uniq, wc, tr
+- Pipes e redirecionamento: |, <, tee, xargs
+- Processos: ps, kill, top, jobs
+- Ambiente: PATH, variáveis de ambiente, wildcards, expansion, escaping, quoting
+
+Aplicação direta às vagas: reforço direto de "conhecimento em sistemas operacionais Linux" e scripting Bash — base para automação de reconhecimento, algo valorizado como diferencial nas Vagas 1, 2, 6.
+
+Imersão Hacker (27/abril, prof. Robson Costa)
+
+CVE e análise de vulnerabilidades, OSINT, Google Dork, tipos de malware, SEToolkit, Shodan, Wifite, EvilTrust, investigação cibernética.
+
+Aplicação direta às vagas: único ponto de contato com temas de reconhecimento ofensivo mais avançado (OSINT, Shodan) e ferramentas citadas nas vagas mais seniores (mesmo que só introdutório) — vale mencionar como exposição prática recente, não como expertise.
